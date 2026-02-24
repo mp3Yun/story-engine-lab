@@ -37,6 +37,7 @@ npm run dev
 src/
   domain/       # Story and Page type definitions
   engine/       # Core StoryEngine class
+  features/     # Library page / Player page 專屬功能
   components/   # React components for rendering UI
   assets/       # Background images, character images
 ```
