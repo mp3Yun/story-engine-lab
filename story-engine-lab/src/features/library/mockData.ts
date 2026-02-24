@@ -7,7 +7,7 @@ export const mockStory: Story = {
     {
       id: "p1",
       duration: 5,
-      background: "#f5f5f5",
+      background: "#547eb0",
       text: "這是第一頁",
     },
     {
