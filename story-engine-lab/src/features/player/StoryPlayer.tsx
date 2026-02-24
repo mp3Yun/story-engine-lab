@@ -38,15 +38,20 @@ export const StoryPlayer = () => {
         />
         {/* 畫面元素 */}
         {currentPage.text && (
-          <div
-            style={{
-              position: "absolute",
-              top: 100,
-              left: 100,
-              border: "1px solid #000",
-            }}
-          >
-            {currentPage.text}
+          <div>
+            <div className="absolute text-4xl font-bold text-blue-500 z-10">
+              Tailwind v4 works!
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: 100,
+                left: 100,
+                border: "1px solid #000",
+              }}
+            >
+              {currentPage.text}
+            </div>
           </div>
         )}
         {/* 控制列 */}
